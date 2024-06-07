@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Groupe les Partenaires (GLP) </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+        <!-- Autres balises dans l'en-tête -->
+    
+        <!-- Ajouter les liens CDN pour jQuery et select2 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    
+    
+</head>
+
+<body>
+
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <h3>Formulaire d'inscription</h3><br>
+                        <div class="table col-xl-8">
+                            <div class="rounded position-relative">
+                                <form action="/submit" method="post">
+                                    <div class="user-details"><br><br>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="systemeEducatif" style="padding-right:55%;"><b>Système Educatif</b></label>
+                                                <select id="systemeEducatif" class="form-control">
+                                                    <option>Choisir</option>
+                                                    <option>National</option>
+                                                    <option>Français</option>
+                                                    <option>International</option>
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <label for="typeCours" style="padding-right:65%;"><b>Type de cours</b></label>
+                                                <select id="typeCours" class="form-control">
+                                                    <option>Choisir</option>
+                                                    <option>En présentiel</option>
+                                                    <option>En ligne</option>
+                                                </select>
+                                            </div>
+                                        </div><br><br><br>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="niveauEtude" style="padding-right:55%;"><b>Niveau d'étude</b></label>
+                                                <select id="niveauEtude" class="form-control">
+                                                    <option>Classe</option>
+                                                    <option>Primaire</option>
+                                                    <option>6eme</option>
+                                                    <option>5eme</option>
+                                                    <option>4eme</option>
+                                                    <option>3eme</option>
+                                                    <option>2ndA1</option>
+                                                    <option>2ndA2</option>
+                                                    <option>2ndC</option>
+                                                    <option>1ereA1</option>
+                                                    <option>1ereA2</option>
+                                                    <option>1ereD</option>
+                                                    <option>1ereC</option>
+                                                    <option>TleA1</option>
+                                                    <option>TleA2</option>
+                                                    <option>TleD</option>
+                                                    <option>TleC</option>
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <label for="matiere" ><b>Matière</b></label>
+                                                <select id="matiere" class="form-control">
+                                                    <option>Toutes les matières</option>
+                                                    <option>Français</option>
+                                                    <option>Anglais</option>
+                                                    <option>Mathématiques</option>
+                                                    <option>Physique</option>
+                                                    <option>Philosophie</option>
+                                                    <option>Physique-Chimie</option>
+                                                    <option>SVT</option>
+                                                </select>
+                                            </div>
+                                        </div><br><br><br>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="localisation" style="padding-right:55%;"><b>Votre Localisation</b></label>
+                                                <select id="localisation" class="form-control">
+                                                    <option>Lieu</option>
+                                                    <option>Angré</option>
+                                                    <option>Palmeraie</option>
+                                                    <option>Nouveau Chu</option>
+                                                    <option>Cité des arts</option>
+                                                    <option>7 Tranche</option>
+                                                    <option>8 Tranche</option>
+                                                    <option>Djorobité</option>
+                                                    <option>Cocovoco</option>
+                                                    <option>Bounoumin</option>
+                                                    <option>Rivera 3-4-5</option>
+                                                    <option>Akouedo</option>
+                                                    <option>Saint Viateur</option>
+                                                </select>
+                                            </div>
+                                            <div class="col input-boxss">
+                                                <label for="autreLocalisation" style="padding-right:80%;"><b>Autre</b></label>
+                                                <input type="text" id="autreLocalisation" class="form-control" placeholder="Précisez">
+                                                <small id="localisationHelpInline" class="text-muted">
+                                                    NB: Un coût supplémentaire sera ajouté au montant final en raison de votre lieu d'habitation ne faisant pas partie de cette liste.
+                                                </small>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col input-boxss">
+                                                <label for="identificationEnfant" style="padding-right:50%;"><b>Identification Enfant</b></label>
+                                                <input type="text" id="identificationEnfant" class="form-control" placeholder="Nom et Prénoms">
+                                            </div>
+                                            <div class="col input-boxss">
+                                                <label for="identificationParent" style="padding-right:50%;"><b>Identification Parent</b></label>
+                                                <input type="text" id="identificationParent" class="form-control" placeholder="Nom et Prénoms">
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="contact" style="padding-right:75%;"><b>Contact</b></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupPrepend3">+225</span>
+                                                    </div>
+                                                    <input type="text" id="contact" class="form-control" placeholder="0727272727" aria-describedby="inputGroupPrepend3">
+                                                </div>
+                                            </div>
+                                            <div class="col input-boxss">
+                                                <label for="montant" style="padding-right:75%;"><b>Montant</b></label>
+                                                <div class="input-group">
+                                                    <input type="text" id="montant" class="form-control" placeholder="150.000" aria-describedby="inputGroupPrepend3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupPrepend3">Fcfa</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><br><br><br>
+                                        <small id="passwordHelpInline" class="text-muted">
+                                            NB: Nos encadrements se font deux (2) fois par semaine durant deux heures (2h).<br>
+                                            Tous nos encadrements sont accompagnés d’une prise en charge psychosociale en DISCIPLINE POSITIVE.<br>
+                                            Vous serez contacté pour finaliser le contrat.
+                                        </small><br><br>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="acceptConditions" required>
+                                            <label class="form-check-label" for="acceptConditions">
+                                                J'accepte toutes ces conditions
+                                            </label>
+                                        </div><br>
+                                        <div class="d-flex justify-content-between flex-lg-wrap">
+                                            <a href="paiement.html" class="btn border border-secondary rounded-pill px-2 text-primary" style="margin: auto;"><i class="fa far fa-credit-card"></i> Passer au Paiement</a>
+                                            <button type="submit" class="btn btn-primary rounded-pill" style="margin: auto;">Valider</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add additional tabs as necessary -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const niveauEtude = document.getElementById('niveauEtude');
+            const matiere = $('#matiere');
+        
+            const allMatieres = [
+                'Toutes les matières',
+               
+            ];
+        
+            const matieres6eme = [
+                'Mathématiques',
+                'Français',
+                'Anglais',
+                'Physique',
+            ];
+            const matieres5eme = [
+                'Mathématiques',
+                'Physique',
+                'Physique-Chimie'
+            ];
+            const matieres4eme = [
+                'Mathématiques',
+                'Physique',
+                'Physique-Chimie'
+            ];
+            const matieres3eme = [
+                'Mathématiques',
+                'Français',
+                'Anglais',
+                'Physique'
+            ];
+            const matieres2ndA1 = [
+                'Mathématiques',
+                'Français',
+                'Philo'
+            ];
+            const matieres2ndA2 = [
+                'Anglais',
+                'Français',
+                'Philo'
+            ];
+            const matieres2ndC = [
+                'Mathématiques',
+                'SVT',
+                'Physique-Chimie'
+            ];
+            const matieres1ereA1 = [
+                'Mathématiques',
+                'Français',
+                'Philo'
+            ];
+            const matieres1ereA2 = [
+                'Anglais',
+                'Français',
+                'Philo'
+            ];
+            const matieres1ereC = [
+                'Mathématiques',
+                'SVT',
+                'Physique-Chimie'
+            ];
+            const matieres1ereD = [
+                'Mathématiques',
+                'SVT',
+                'Physique-Chimie'
+            ];
+            const matieresTleA1 = [
+                'Mathématiques',
+                'Français',
+                'Philo'
+            ];
+            const matieresTleA2 = [
+                'Anglais',
+                'Français',
+                'Philo'
+            ];
+            const matieresTleC = [
+                'Mathématiques',
+                'SVT',
+                'Physique-Chimie'
+            ];
+            const matieresTleD = [
+                'Mathématiques',
+                'SVT',
+                'Physique-Chimie'   
+            ];
+        
+            function updateMatiereOptions(options, multiple = false) {
+                matiere.html('');
+                options.forEach(option => {
+                    matiere.append($('<option></option>').attr('value', option).text(option));
+                });
+                matiere.val(null); // Réinitialise la sélection
+                matiere.select2({ // Initialise select2
+                    placeholder: 'Sélectionnez une ou plusieurs matières',
+                    allowClear: true,
+                    multiple: multiple
+                });
+            }
+        
+            niveauEtude.addEventListener('change', function () {
+                if (niveauEtude.value === 'Primaire') {
+                    updateMatiereOptions(allMatieres);
+                } else if (niveauEtude.value === '6eme') {
+                    updateMatiereOptions(matieres6eme, true);
+                }else if (niveauEtude.value === '5eme') {
+                    updateMatiereOptions(matieres5eme, true);
+                }else if (niveauEtude.value === '4eme') {
+                    updateMatiereOptions(matieres4eme, true);
+                }else if (niveauEtude.value === '3eme') {
+                    updateMatiereOptions(matieres3eme, true);
+                }else if (niveauEtude.value === '2ndA1') {
+                    updateMatiereOptions(matieres2ndA1, true);
+                
+                }  else if (niveauEtude.value === '2ndA2') {
+                    updateMatiereOptions(matieres2ndA2, true);
+                
+                } else if (niveauEtude.value === '2ndC') {
+                    updateMatiereOptions(matieres2ndC, true);
+                
+                } else if (niveauEtude.value === '1ereA1') {
+                    updateMatiereOptions(matieres1ereA1, true);
+                
+                } else if (niveauEtude.value === '1ereA2') {
+                    updateMatiereOptions(matieres1ereA2, true);
+                
+                } else if (niveauEtude.value === '1ereD') {
+                    updateMatiereOptions(matieres1ereD, true);
+                
+                } else if (niveauEtude.value === '1ereC') {
+                    updateMatiereOptions(matieres1ereC, true);
+                
+                } else if (niveauEtude.value === '1ereD') {
+                    updateMatiereOptions(matieres1ereD, true);
+                
+                } else if (niveauEtude.value === 'TleA1') {
+                    updateMatiereOptions(matieresTleA1, true);
+                
+                } else if (niveauEtude.value === 'TleA2') {
+                    updateMatiereOptions(matieresTleA2, true);
+                
+                } else if (niveauEtude.value === 'TleC') {
+                    updateMatiereOptions(matieresTleC, true);
+                
+                } else if (niveauEtude.value === 'TleD') {
+                    updateMatiereOptions(matieresTleD, true);
+                
+                }  else {
+                    updateMatiereOptions(['Sélectionnez un niveau d\'étude d\'abord']);
+                }
+            });
+        
+            // Initial call to set the correct options
+            updateMatiereOptions(['Sélectionnez un niveau d\'étude d\'abord']);
+        });
+        </script>
+        
+        
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+/********** Template CSS **********/
+:root {
+    --primary: #88B44E;
+    --secondary: #FB9F38;
+    --light: #F5F8F2;
+    --dark: #252C30;
+}
+
+
+
+
+.body {
+   display: flex;
+    height: 700px;
+    justify-content: center;
+    background: linear-gradient(135deg, #71e68e, #FB9F38);
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.bodyt {
+    display: flex;
+     height: 700px;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+ 
+ 
+ }
+.bodyform {
+    display: flex;
+     height: 850px;
+     justify-content: center;
+     background: linear-gradient(135deg, #71e68e, #FB9F38);
+     align-items: center;
+     padding: 10px;
+ 
+ 
+ }
+.cont{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.conta{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;}
+
+.cont .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+.cont .title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 16%;
+    background:#9b59b6 ;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #71e68e, #FB9F38);
+    margin-left: 42%;
+
+}
+
+.coche{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+/* p-1 border border-secondary border-top-0 rounded-bottom */
+
+.table{
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.form-cheecki{
+    margin: auto;
+}
+.cont form .user-details{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px
+     0 12px 0;
+}
+.form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+    
+    
+}
+.user-details .input-box .details{
+   font-weight: 5000;
+   margin-bottom: 5px; 
+   display: block;
+   
+}
+
+detailler{
+    font-weight: 5000;
+    margin-bottom: 5px; 
+    display: block;
+    
+ }
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.user-details .input-boxs input{
+    height: 45px;     /*grosseur des boutons */
+    width: 20%;     /*taille des boutons */
+    padding-left: 10px;
+    display: flex; /* Utilise flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Aligne les éléments au centre verticalement */
+    gap: 10px; /* Ajoute un espace de 15 pixels entre chaque bouton radio */
+    margin-bottom: 1px; /* Ajoute un espace de 10 pixels sous le conteneur */
+
+    
+
+}
+
+user-details .input-boxss input{
+    height: 45px;     /*grosseur des boutons */
+    width: 100%;     /*taille des boutons */
+    padding-left: 15px;
+    display: flex; /* Utilise flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Aligne les éléments au centre verticalement */
+    gap: 15px; /* Ajoute un espace de 15 pixels entre chaque bouton radio */
+    margin-bottom: 10px; /* Ajoute un espace de 10 pixels sous le conteneur */
+
+    
+
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+
+.user-details .input-boxss input:focus,
+.user-details .input-boxss input:valid{
+    border-color: #b9b3bb;
+}
+
+form .gender-details .gender-title{
+font-size: 20px;
+font-weight: 500;
+}
+form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+    
+}
+
+
+form button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline-color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71e68e, #FB9F38);
+}
+    /********** Template CSS **********/
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+
+
+
+
+
+
